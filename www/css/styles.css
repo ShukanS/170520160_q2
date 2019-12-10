@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+
+p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+}
+
+div {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+#text {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+img {
+  height: 100vh;
+}
+
+/*
+#text p {
+  text-align: center;
+  overflow: hidden;
+  border-right: .15em solid blue;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  90% { border-color: blue; }
+}
+/*
